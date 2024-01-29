@@ -4,6 +4,13 @@ body {
     font-family: 'Open Sans', Verdana, Sans-Serif;
     margin-left: 0px;
     margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
 }
 
 .Logo {
@@ -25,15 +32,39 @@ header {
 
 .middle-menu-header {
     text-align: center;
-    font-size: 16px;
+    margin-top: 35px;
 }
 
 .middle-menu-header a {
-    margin: 0 25px;
+    margin: 0 10px;
     color: black;
     text-decoration: none;
     font-weight: 100;
+    font-size: 18px;
+    padding: 18px;
 }
+
+.middle-menu-header a:hover {
+    text-decoration: underline;
+}
+
+.middle-menu-header a:active {
+    color: #333;
+}
+
+.footer-line {
+    background-color: black;
+    height: 1.5px;
+    width: 100%;
+}
+
+.CSM {
+    width: 35px;
+    position: relative;
+    left: 145px;
+
+}
+
 
 h1 {
     
@@ -48,12 +79,6 @@ h2 {
 }
 
 h3 {
-
-    background-color: black;
-    height: 1.5px;
-    width: 100%;
-    top: 15px;
-    position: relative;
 
     
 
