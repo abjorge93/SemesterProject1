@@ -1,5 +1,6 @@
 
 body {
+
     background-color: rgb(228, 228, 213);
     font-family: 'Open Sans', Verdana, Sans-Serif;
     margin-left: 0px;
@@ -10,14 +11,18 @@ body {
 }
 
 .main-content {
+
     flex: 1;
 }
 
-.Logo {
+.logo-big {
+
     width: 300px;
     position: relative;
     left: 150px;
+    top: -60px;
 }
+
 
 
 header {
@@ -25,17 +30,18 @@ header {
     background-color: black;
     height: 1.5px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 40px;
     
 }
 
 .middle-menu-header {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 23px;
 }
 
 .middle-menu-header a {
+
     margin: 0 10px;
     color: black;
     text-decoration: none;
@@ -45,23 +51,56 @@ header {
 }
 
 .middle-menu-header a:hover {
+
     text-decoration: underline;
 }
 
 .middle-menu-header a:active {
+
     color: #333;
 }
 
 .footer-line {
+    position: relative;
+    bottom: 50px;
     background-color: black;
     height: 1.5px;
     width: 100%;
 }
 
-.CSM {
-    width: 35px;
+
+
+
+.footer-text-container {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer-text-left {
+position: relative;
+left: 400px;
+bottom: 18px;
+}
+
+.footer-text-middle {
     position: relative;
-    left: 145px;
+    bottom: 18px;
+
+}
+
+.footer-text-right {
+    position: relative;
+    right: 400px;
+    bottom: 18px;
+}
+
+.footer-text-left,
+.footer-text-middle,
+.footer-text-right {
+
+    font-size: 12px;
 
 }
 
