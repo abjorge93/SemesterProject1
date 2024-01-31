@@ -68,7 +68,13 @@ header {
     width: 100%;
 }
 
-
+.frontpage-coverpicture {
+    position: relative; 
+    left: 50%;
+    top: 280px;
+    width: 550px;
+    transform: translate(-50%, -50%);
+}
 
 
 .footer-text-container {
@@ -88,7 +94,7 @@ bottom: 18px;
     position: relative;
     bottom: 18px;
 
-}
+} 
 
 .footer-text-right {
     position: relative;
