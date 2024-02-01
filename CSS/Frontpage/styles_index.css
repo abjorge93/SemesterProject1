@@ -113,7 +113,7 @@ header {
 .kidandboard-text a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: b;
 }
 
 .footer-line {
@@ -132,11 +132,19 @@ header {
     margin-top: auto;
 }
 
+.logo-small {
+    width: 30px;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 60px;
+
+}
+
 .footer-text-container {
     
     display: flex;
     justify-content: space-between;
-    padding: 10px;
 }
 
 .footer-text-left {
