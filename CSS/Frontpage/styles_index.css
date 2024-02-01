@@ -71,11 +71,28 @@ header {
 .frontpage-coverpicture {
     position: relative; 
     left: 50%;
-    top: 280px;
-    width: 550px;
+    top: 500px;
+    width: 800px;
     transform: translate(-50%, -50%);
 }
 
+.mammoth-text-container {
+    position: relative; 
+    left: 50%;
+    top: 230px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+}
+
+.mammoth-text {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.mammoth-text a {
+    text-decoration: none;
+    color: black;
+}
 
 .footer-text-container {
     
@@ -86,7 +103,7 @@ header {
 
 .footer-text-left {
 position: relative;
-left: 400px;
+left: 800px;
 bottom: 18px;
 }
 
@@ -98,7 +115,7 @@ bottom: 18px;
 
 .footer-text-right {
     position: relative;
-    right: 400px;
+    right: 800px;
     bottom: 18px;
 }
 
