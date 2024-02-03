@@ -3,19 +3,13 @@ body {
 
     background-color: rgb(228, 228, 213);
     font-family: 'Open Sans', Verdana, Sans-Serif;
-    justify-content: center;
-    align-items: center;
     margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 300vh;
 }
 
-.main-content {
 
-    flex: 1;
-}
 
 .logo-big {
 
@@ -71,11 +65,13 @@ header {
 }
 
 .mammoth-text-container {
-    position: relative; 
-    left: 50%;
-    top: 105px;
-    width: 800px;
-    transform: translate(-50%, -50%);
+
+    
+    max-width: 800px; 
+    margin: 30px auto 0;
+    padding: 0 20px; 
+
+    
 }
 
 .mammoth-text {
@@ -100,11 +96,10 @@ header {
 }
 
 .kidandboard-text-container {
-    position: relative; 
-    left: 50%;
-    top: 160px;
-    width: 800px;
-    transform: translate(-50%, -50%);
+
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px; 
 }
 
 .kidandboard-text {
@@ -118,28 +113,25 @@ header {
     font-weight: bold;
 }
 
-.footer-line {
-    background-color: black;
-    height: 1.5px;
-    width: 100%;
-}
-
-.nightdude-desktop-picture {
-
-    position: relative; 
-    left: 200px;
-    top: 100px;
-    width: 400px;
-    transform: translate(-50%, -50%);
-    margin: 0;
-
-}
-
-.nightdude-desktop-text-container {
-    margin: 0;
+.nightdude-picture {
+    
     position: relative;
-    left: 420px;
-    top: 160px;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    top: 100px;
+    right: 195px;
+
+}
+
+.nightdude-text-container {
+    
+    position: relative;
+    left: 430px;
+    bottom: 290px;
+    max-width: 800px; 
+    margin: 100px auto 0;
+    
 }
 
 .nightdude-text {
@@ -156,6 +148,13 @@ header {
     
 }
 
+.footer-line {
+    background-color: black;
+    height: 1.5px;
+    width: 100%;
+}
+
+
 .footer {
     background-color: rgb(228, 228, 213);
     color: black;
@@ -166,8 +165,6 @@ header {
     margin-top: auto;
 }
 
-
-
 .footer-text-container {
     
     display: flex;
@@ -176,7 +173,7 @@ header {
 
 .footer-text-left {
 position: relative;
-left: 400px;
+left: 20%;
 
 }
 
@@ -188,7 +185,7 @@ left: 400px;
 
 .footer-text-right {
     position: relative;
-    right: 400px;
+    right: 20%;
     
 }
 
@@ -218,3 +215,4 @@ h3 {
     
 
 }
+

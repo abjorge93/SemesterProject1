@@ -61,6 +61,7 @@ header {
 }
 
 .footer-line {
+
     position: relative;
     bottom: 50px;
     background-color: black;
@@ -68,8 +69,19 @@ header {
     width: 100%;
 }
 
+.frontpage-coverpicture {
 
+    width: 900px;
+}
 
+.content-wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 900px; 
+    top: 100px;
+    padding: 30px;
+    
+}
 
 .footer-text-container {
     
