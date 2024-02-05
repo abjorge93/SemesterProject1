@@ -8,144 +8,27 @@ body {
     min-height: 300vh;
 }
 
-
-
-.logo-big {
-
-    width: 300px;
-    position: relative;
-    left: 150px;
-    top: -60px;
+.topnav,
+ #menu-checkbox {
+    display: none;
 }
 
-
-
-header {
-    
-    background-color: black;
-    height: 1.5px;
-    width: 100%;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    
-}
-
-.middle-menu-header {
-    text-align: center;
-    margin-top: 23px;
-}
-
-.middle-menu-header a {
-
-    margin: 0 10px;
-    color: black;
-    text-decoration: none;
-    font-weight: 100;
-    font-size: 18px;
-    padding: 18px;
-}
-
-.middle-menu-header a:hover {
-
-    text-decoration: underline;
-}
-
-.middle-menu-header a:active {
-
-    color: #333;
-}
-
-.frontpage-coverpicture {
-    position: relative; 
-    left: 50%;
-    top: 380px;
-    width: 800px;
-    transform: translate(-50%, -50%);
-}
-
-.mammoth-text-container {
-
-    
-    max-width: 800px; 
-    margin: 30px auto 0;
-    padding: 0 20px; 
-
-    
-}
-
-.mammoth-text {
-    font-size: 18px;
-    font-weight: 100;
-}
-
-.mammoth-text a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-.kidandboard-picture {
-
-    position: relative; 
-    left: 50%;
-    top: 270px;
-    width: 800px;
-    transform: translate(-50%, -50%);
-
-}
-
-.kidandboard-text-container {
-
-    max-width: 800px; 
-    margin: 100px auto 0;
-    padding: 0 20px; 
-}
-
-.kidandboard-text {
-    font-size: 18px;
-    font-weight: 100;
-}
-
-.kidandboard-text a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-.nightdude-picture {
-    
-    position: relative;
-    width: 400px;
-    margin: 0 auto;
+.topnav a {
     display: block;
-    top: 100px;
-    right: 195px;
-
-}
-
-.nightdude-text-container {
-    
-    position: relative;
-    left: 430px;
-    bottom: 290px;
-    max-width: 800px; 
-    margin: 100px auto 0;
-    
-}
-
-.nightdude-text {
-
-    font-size: 18px;
-    font-weight: 100;
-}
-
-.nightdude-text a {
-
-    font-weight:bold;
-    text-decoration: none;
     color: black;
-    
+    text-decoration: none;
 }
+
+.topnav {
+    position: absolute;
+    background-color:rgb(228, 228, 213)
+}
+
+
+#menu-checkbox:checked ~ .topnav {
+    display: block; 
+}
+
 
 .footer-line {
     background-color: black;
