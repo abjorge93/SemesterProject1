@@ -27,7 +27,7 @@ body {
 .headerline {
 
     background-color: black;
-    height: 1.5px;
+    height: 1px;
     width: 100%;
     margin-top: 70px;
     
@@ -39,16 +39,6 @@ body {
  #menu-checkbox {
     display: none;
 
-}
-
-.hamburger-icon {
-
-    position: relative;
-    left: 80%;
-    top: 38px;
-    font-size: 25px;
-    
-    
 }
 
 
@@ -74,6 +64,20 @@ body {
     
 }
 
+.topnav a:hover {
+
+    text-decoration: underline;
+}
+
+.hamburger-icon {
+
+    position: relative;
+    left: 80%;
+    top: 38px;
+    font-size: 25px;
+    
+}
+
 
 #menu-checkbox:checked ~ .topnav {
     
@@ -96,6 +100,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: auto;
+    margin-bottom: 25px;
 }
 
 .footer-text-container {
@@ -125,6 +130,18 @@ left: 200px;
     
 }
 
+.footer-text-right a {
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+.footer-text-right a:hover {
+
+    text-decoration: underline;
+}
+
 .footer-text-left,
 .footer-text-middle,
 .footer-text-right {
@@ -133,7 +150,16 @@ left: 200px;
 
 }
 
+.footer-text-middle-mobile {
+    margin-bottom: -25px;
+}
 
+.footer-text-middle-mobile a {
+
+    text-decoration: none;
+    color: black;
+
+}
 
 
 h1 {
