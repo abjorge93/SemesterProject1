@@ -1,11 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body {
 
     background-color: rgb(228, 228, 213);
-    font-family: 'Open Sans', Verdana, Sans-Serif;
+    font-family: 'Roboto', Verdana, Sans-Serif;
     margin: 0;
     display: flex;
     flex-direction: column;
     min-height: 300vh;
+    overflow-x: hidden;
 }
 
 .logo-big {
@@ -84,6 +88,62 @@ body {
     display: block; 
 }
 
+.frontpage-coverpicture {
+    position: relative; 
+    left: 50%;
+    top: 380px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+}
+
+.mammoth-text-container {
+
+    
+    max-width: 800px; 
+    margin: 30px auto 0;
+    padding: 0 20px; 
+
+    
+}
+
+.mammoth-text {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.mammoth-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.kidandboard-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 270px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+
+}
+
+.kidandboard-text-container {
+
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px; 
+}
+
+.kidandboard-text {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.kidandboard-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
 .footer-line {
     background-color: black;
@@ -91,6 +151,40 @@ body {
     width: 100%;
 }
 
+.nightdude-picture {
+    
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    top: 100px;
+    right: 195px;
+
+}
+
+.nightdude-text-container {
+    
+    position: relative;
+    left: 430px;
+    bottom: 290px;
+    max-width: 800px; 
+    margin: 100px auto 0;
+    
+}
+
+.nightdude-text {
+
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.nightdude-text a {
+
+    font-weight:bold;
+    text-decoration: none;
+    color: black;
+    
+}
 
 .footer {
     background-color: rgb(228, 228, 213);
@@ -100,7 +194,6 @@ body {
     width: 100%;
     text-align: center;
     margin-top: auto;
-    margin-bottom: 25px;
 }
 
 .footer-text-container {
@@ -147,12 +240,10 @@ left: 200px;
 .footer-text-right {
 
     font-size: 18px;
+    margin-bottom: 50px;
 
 }
 
-.footer-text-middle-mobile {
-    margin-bottom: -25px;
-}
 
 .footer-text-middle-mobile a {
 
@@ -187,6 +278,7 @@ h3 {
     .footer-text-right {
     
         font-size: 12px;
+        margin-bottom: 30px;
     
     }
 
