@@ -43,6 +43,7 @@ body {
 .topnav,
  #menu-checkbox {
     display: none;
+    z-index: 1; 
 
 }
 
@@ -173,6 +174,18 @@ body {
     
 }
 
+.nightdude-text-container-2 {
+
+    max-width: 450px; 
+    margin: 30px auto 0;
+    padding: 0 20px; 
+    display: none;
+}
+
+.nightdude-text-2 {
+
+}
+
 .nightdude-text {
 
     font-size: 18px;
@@ -292,6 +305,77 @@ h3 {
         position: relative;
         right: 30px;
     }
+
+}
+
+@media (max-width: 836px) {
+
+    .frontpage-coverpicture {
+
+        width: 450px;
+        top: 225px;
+
+    }
+    
+    .kidandboard-picture {
+        width: 450px;
+        top: 150px;
+    }
+
+
+    .mammoth-text-container,
+    .kidandboard-text-container,
+    .nightdude-text-container-2 {
+
+        max-width: 450px; 
+        margin: 30px auto 0;
+        padding: 0 20px; 
+
+    }
+
+    .nightdude-text-container{
+
+        display: none;
+    }
+
+    .nightdude-text-container-2 {
+
+        display: block;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .nightdude-text-2 a {
+
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+
+
+    }
+
+    .nightdude-text-2 {
+
+        font-weight: 100;
+    }
+
+    .nightdude-picture {
+
+        position: relative; 
+        left: 50%;
+        top: 270px;
+        width: 450px;
+        transform: translate(-50%, -50%);
+        margin: 0px;
+    }
+
+    .kidandboard-text-container {
+      
+        margin-top: 58px;
+
+    }
+
+    
 
 }
 
