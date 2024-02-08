@@ -394,7 +394,8 @@ h3 {
     .mammoth-text-container,
     .kidandboard-text-container,
     .nightdude-text-container-2,
-    .kidandboard-header {
+    .kidandboard-header,
+    .fancymachine-text-container {
 
         max-width: 450px; 
         margin: 30px auto 0;
@@ -466,7 +467,36 @@ h3 {
 
     }
 
-    
+    .fancymachine-header {
+
+        font-size: 22px;
+   
+       }
+
+       .fancymachine-picture {
+
+        width: 450px;
+        top: 200px;
+    }
+
+       .fancymachine-header {
+
+        max-width: 450px; 
+        margin: 30px auto 0;
+        top: 38px;
+        
+      }
+
+      .fancymachine-text-container {
+
+        top: 28px;
+   
+       }
+
+
+   
+
+
 
 }
 
