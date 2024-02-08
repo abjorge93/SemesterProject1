@@ -123,16 +123,26 @@ body {
 
     position: relative; 
     left: 50%;
-    top: 270px;
+    top: 190px;
     width: 800px;
     transform: translate(-50%, -50%);
+    
 
+}
+
+.kidandboard-header {
+
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .kidandboard-text-container {
 
     max-width: 800px; 
-    margin: 100px auto 0;
+    margin: 10px auto 0;
     padding: 0 20px; 
 }
 
@@ -151,6 +161,12 @@ body {
     background-color: black;
     height: 1.5px;
     width: 100%;
+}
+
+.nightdude-header {
+
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .nightdude-picture {
@@ -180,6 +196,11 @@ body {
     margin: 30px auto 0;
     padding: 0 20px; 
     display: none;
+}
+
+.nightdude-header2 {
+    font-weight: 400;
+    font-size: 22px;
 }
 
 .nightdude-text-2 {
@@ -317,20 +338,30 @@ h3 {
 
     }
     
-    .kidandboard-picture {
-        width: 450px;
-        top: 150px;
-    }
-
 
     .mammoth-text-container,
     .kidandboard-text-container,
-    .nightdude-text-container-2 {
+    .nightdude-text-container-2,
+    .kidandboard-header {
 
         max-width: 450px; 
         margin: 30px auto 0;
-        padding: 0 20px; 
 
+    }
+    
+    .kidandboard-header {
+
+     font-size: 22px;
+     margin-top: 50px;
+     margin-bottom: -40px;
+     
+
+    }
+
+    .kidandboard-picture {
+
+        width: 450px;
+        top: 150px;
     }
 
     .nightdude-text-container{
@@ -338,11 +369,19 @@ h3 {
         display: none;
     }
 
+
     .nightdude-text-container-2 {
 
         display: block;
         margin-top: 60px;
         text-align: center;
+    }
+
+    .nightdude-header2 {
+    
+        display: block;
+        max-width: 450px; 
+        margin: 30px auto 0;
     }
 
     .nightdude-text-2 a {
