@@ -98,11 +98,170 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.admission-text-container {
+
+    
+    max-width: 800px; 
+    margin: 30px auto 0;
+    padding: 0 20px; 
+    position: relative;
+    top: 10px;
+
+    
+}
+
+.admission-text {
+    
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.cafeteria-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 240px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.cafeteria-header {
+
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.cafeteria-text-container {
+
+    max-width: 800px; 
+    margin: 10px auto 0;
+    padding: 0 20px; 
+    position: relative;
+    top: 10px;
+}
+
+.cafeteria-text {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+
+.accessibility-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 300px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+
+.accessibility-header {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+    bottom: 10px;
+
+}
+
+
+.accessibility-text-container {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 10px auto 0;
+    padding: 0 20px; 
+
+}
+
+.accessibility-text {
+
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+
+
+
+.volunteer-fp-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 300px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.volunteer-fp-header {
+
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    bottom: 25px;
+}
+
+
+.volunteer-fp-text-container {
+
+    max-width: 800px; 
+    margin: 10px auto 0;
+    padding: 0 20px; 
+    position: relative;
+    top: 150px;
+}
+
+.volunteer-fp-text,
+.volunteer-fp-text-2 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.volunteer-fp-text-2 a {
+
+    font-weight:bold;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.volunteer-fp-text {
+
+    position: relative;
+    bottom: 525px;
+}
+
+.volunteer-fp-text-2 {
+
+    position: relative;
+    bottom: 170px;
+    
+}
+
 .map-header {
 
     font-size: 25px;
     font-weight: 400;
 }
+
 
 .map-picture {
     
@@ -154,162 +313,11 @@ body {
     
 }
 
-
-.kidandboard-picture {
-
-    position: relative; 
-    left: 50%;
-    top: 190px;
-    width: 800px;
-    transform: translate(-50%, -50%);
-    
-
-}
-
-.kidandboard-header {
-
-    max-width: 800px; 
-    margin: 100px auto 0;
-    padding: 0 20px;
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.kidandboard-text-container {
-
-    max-width: 800px; 
-    margin: 10px auto 0;
-    padding: 0 20px; 
-}
-
-.kidandboard-text {
-    font-size: 18px;
-    font-weight: 100;
-}
-
-.kidandboard-text a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-.footer-line {
+ .footer-line {
     background-color: black;
     height: 1.5px;
     width: 100%;
 }
-
-
-
-.fancymachine-picture {
-
-    position: relative; 
-    left: 50%;
-    top: 50px;
-    width: 800px;
-    transform: translate(-50%, -50%);
-    
-
-}
-
-
-.fancymachine-header {
-
-    position: relative;
-    max-width: 800px; 
-    margin: 100px auto 0;
-    padding: 0 20px;
-    font-size: 25px;
-    font-weight: 400;
-    bottom: 235px;
-
-}
-
-
-.fancymachine-text-container {
-
-    position: relative;
-    max-width: 800px; 
-    margin: 10px auto 0;
-    padding: 0 20px; 
-    bottom: 220px;
-
-}
-
-.fancymachine-text {
-
-    font-size: 18px;
-    font-weight: 100;
-
-}
-
-.fancymachine-text a {
-
-    font-weight:bold;
-    text-decoration: none;
-    color: black;
-    
-}
-
-
-
-.volunteer-fp-picture {
-
-    position: relative; 
-    left: 50%;
-    top: 155px;
-    width: 800px;
-    transform: translate(-50%, -50%);
-    
-
-}
-
-.volunteer-fp-header {
-
-    max-width: 800px; 
-    margin: 100px auto 0;
-    padding: 0 20px;
-    font-size: 25px;
-    font-weight: 400;
-    position: relative;
-    bottom: 180px;
-}
-
-
-.volunteer-fp-text-container {
-
-    max-width: 800px; 
-    margin: 10px auto 0;
-    padding: 0 20px; 
-}
-
-.volunteer-fp-text,
-.volunteer-fp-text-2 {
-    font-size: 18px;
-    font-weight: 100;
-}
-
-.volunteer-fp-text-2 a {
-
-    font-weight:bold;
-    text-decoration: none;
-    color: black;
-    
-}
-
-.volunteer-fp-text {
-
-    position: relative;
-    bottom: 525px;
-}
-
-.volunteer-fp-text-2 {
-
-    position: relative;
-    bottom: 170px;
-    
-}
-
 
 .footer {
     background-color: rgb(228, 228, 213);
@@ -439,14 +447,15 @@ h3 {
     }
     
 
-    .mammoth-text-container,
-    .kidandboard-text-container,
+    
+    .cafeteria-text-container,
     .map-text-container-2,
-    .kidandboard-header,
-    .fancymachine-text-container,
+    .cafeteria-header,
+    .accessibility-text-container,
     .volunteer-fp-text,
     .volunteer-fp-text-2,
-    .volunteer-fp-header {
+    .volunteer-fp-header,
+    .admission-text-container {
 
         max-width: 450px; 
         margin: 30px auto 0;
@@ -463,7 +472,7 @@ h3 {
     .map-text-container-2 {
 
         display: block;
-        margin-top: 85px;
+        margin-top: 150px;
         text-align: center;
     }
 
@@ -498,7 +507,7 @@ h3 {
 
     }
 
-    .kidandboard-header {
+    .cafeteria-header {
 
         font-size: 22px;
         margin-top: 50px;
@@ -507,54 +516,54 @@ h3 {
    
        }
    
-    .kidandboard-picture {
+    .cafeteria-picture {
    
            width: 450px;
-           top: 150px;
+           top: 180px;
        }
 
-    .kidandboard-text-container {
+    .cafeteria-text-container {
       
         margin-top: 58px;
 
     }
 
-    .fancymachine-header {
+    .accessibility-header {
 
         font-size: 22px;
    
        }
 
-    .fancymachine-picture {
+    .accessibility-picture {
 
         width: 450px;
         top: 200px;
     }
 
-    .fancymachine-header {
+    .accessibility-header {
 
         max-width: 450px; 
         margin: 30px auto 0;
-        top: 38px;
+        top: 20px;
         
     }
 
-    .fancymachine-text-container {
+    .accessibility-text-container {
 
-        top: 28px;
+        top: 12px;
    
     }
 
     .volunteer-fp-header {
 
 
-        top: 80px;
+        top: 50px;
     }
 
     .volunteer-fp-picture {
 
         width: 450px;
-        top: 400px;
+        top: 370px;
 
     }
 
@@ -562,7 +571,7 @@ h3 {
 
     .volunteer-fp-text {
     
-     bottom: 135px;
+     bottom: 315px;
 
     }
 
