@@ -94,7 +94,7 @@ body {
 
     position: relative; 
     left: 50%;
-    top: 280px;
+    top: 175px;
     width: 800px;
     transform: translate(-50%, -50%);
     
@@ -121,6 +121,15 @@ body {
     top: 10px;
 }
 
+.butterly-text-container a,
+.windmills-text-container a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
 .butterly-text {
     
     font-size: 18px;
@@ -136,16 +145,6 @@ body {
     font-weight: 400;
     position: relative;
     
-
-}
-
-.windmills-picture {
-
-    position: relative; 
-    left: 50%;
-    top: 290px;
-    width: 800px;
-    transform: translate(-50%, -50%);
     
 
 }
@@ -157,7 +156,7 @@ body {
     margin: 30px auto 0;
     padding: 0 20px; 
     position: relative;
-    top: 10px;
+    bottom: 50px;
 
     
 }
@@ -166,6 +165,8 @@ body {
     
     font-size: 18px;
     font-weight: 100;
+    position: relative;
+    bottom: 18px;
 }
 
 
@@ -187,7 +188,7 @@ body {
 
     position: relative; 
     left: 50%;
-    top: 270px;
+    top: 190px;
     width: 800px;
     transform: translate(-50%, -50%);
 
@@ -208,6 +209,8 @@ body {
 
     font-size: 18px;
     font-weight: 100;
+    position: relative;
+    top: 20px;
 
 }
 
@@ -473,35 +476,50 @@ left: 200px;
     .ai-picture {
    
            width: 450px;
-           top: 150px;
+           top: 100px;
        }
 
-    
+    .butterly-picture {
 
-    .kids-header {
-
-        top: 5px;
+        top: 100px;
     }
+
 
 
     .butterly-header,
     .windmills-header,
-    .baby-header,
-    .cosmo-header,
-    .ai-header {
+    .baby-header {
         
         max-width: 450px;
         font-size: 22px;
         position: relative;
-        bottom: 35px;
+       
     }
 
-    .accessibility-text-container {
+    .butterly-header {
 
-        top: 20px;
-   
+        top: 18px;
+         
     }
-  
+
+    .windmills-header {
+
+        top: 5px;
+
+    }
+
+    .baby-header {
+
+        bottom: 15px;
+
+    }
+
+    .baby-text { 
+
+        position: relative;
+        top: -10px;
+
+    }
 
 }
 
