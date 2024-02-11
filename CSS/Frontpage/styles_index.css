@@ -412,6 +412,12 @@ left: 200px;
 
 @media (max-width: 1297px) {
 
+    .footer-line {
+    
+        height: 1px;
+    }
+
+
     .footer-text-left,
     .footer-text-middle,
     .footer-text-right {
