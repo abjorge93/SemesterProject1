@@ -195,67 +195,6 @@ body {
 }
 
 
-
-
-.volunteer-fp-picture {
-
-    position: relative; 
-    left: 50%;
-    top: 300px;
-    width: 800px;
-    transform: translate(-50%, -50%);
-    
-
-}
-
-.volunteer-fp-header {
-
-    max-width: 800px; 
-    margin: 100px auto 0;
-    padding: 0 20px;
-    font-size: 25px;
-    font-weight: 400;
-    position: relative;
-    bottom: 25px;
-}
-
-
-.volunteer-fp-text-container {
-
-    max-width: 800px; 
-    margin: 10px auto 0;
-    padding: 0 20px; 
-    position: relative;
-    top: 150px;
-}
-
-.volunteer-fp-text,
-.volunteer-fp-text-2 {
-    font-size: 18px;
-    font-weight: 100;
-}
-
-.volunteer-fp-text-2 a {
-
-    font-weight:bold;
-    text-decoration: none;
-    color: black;
-    
-}
-
-.volunteer-fp-text {
-
-    position: relative;
-    bottom: 525px;
-}
-
-.volunteer-fp-text-2 {
-
-    position: relative;
-    bottom: 170px;
-    
-}
-
 .map-header {
 
     font-size: 25px;
@@ -314,12 +253,14 @@ body {
 }
 
  .footer-line {
+    
     background-color: black;
     height: 1.5px;
     width: 100%;
 }
 
 .footer {
+
     background-color: rgb(228, 228, 213);
     color: black;
     position: fixed;
@@ -386,25 +327,12 @@ left: 200px;
 }
 
 
-h1 {
-    
-    
-
-}
-
-h2 {
-
-    
-    
-}
-
-h3 {
-
-    
-
-}
-
 @media (max-width: 1297px) {
+
+    .footer-line {
+    
+        height: 1px;
+    }
 
     .footer-text-left,
     .footer-text-middle,
@@ -426,6 +354,8 @@ h3 {
     }
 
 }
+
+
 
 @media (max-width: 900px) {
 
@@ -452,9 +382,6 @@ h3 {
     .map-text-container-2,
     .cafeteria-header,
     .accessibility-text-container,
-    .volunteer-fp-text,
-    .volunteer-fp-text-2,
-    .volunteer-fp-header,
     .admission-text-container {
 
         max-width: 450px; 
@@ -472,7 +399,7 @@ h3 {
     .map-text-container-2 {
 
         display: block;
-        margin-top: 150px;
+        margin-top: 90px;
         text-align: center;
     }
 
@@ -482,6 +409,8 @@ h3 {
         max-width: 450px; 
         margin: 30px auto 0;
         font-size: 22px;
+        position: relative;
+       
     }
 
 
@@ -553,36 +482,7 @@ h3 {
         top: 20px;
    
     }
-
-    .volunteer-fp-header {
-
-
-        top: 50px;
-    }
-
-    .volunteer-fp-picture {
-
-        width: 450px;
-        top: 370px;
-
-    }
-
-
-
-    .volunteer-fp-text {
-    
-     bottom: 315px;
-
-    }
-
-
-    .volunteer-fp-text-2 {
-
-        top: 55px;
-    
-
-
-    }
+  
 
 }
 
@@ -622,6 +522,21 @@ h3 {
 }
 
 @media (max-width: 625px) {
+
+    .admission-text-container,
+    .cafeteria-text-container,
+    .accessibility-text-container {
+
+        text-align: center;
+
+    }
+    
+    .cafeteria-header,
+    .accessibility-header {
+
+        text-align: center;
+
+    }
 
     .logo-big {
 
