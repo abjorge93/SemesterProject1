@@ -1,61 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body {
 
     background-color: rgb(228, 228, 213);
-    font-family: 'Open Sans', Verdana, Sans-Serif;
+    font-family: 'Roboto', Verdana, Sans-Serif;
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 300vh;
+    min-height: 350vh;
+    overflow-x: hidden;
 }
-
-
 
 .logo-big {
 
     width: 300px;
     position: relative;
     left: 150px;
-    top: -60px;
+    bottom: 70px;
+    
 }
 
+.logo-small {
+    position: relative;
+    width: 32px;
+    left: 40px;
+    bottom: 28px;
+}
 
+.headerline {
 
-header {
-    
     background-color: black;
-    height: 1.5px;
+    height: 1px;
     width: 100%;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 10px;
     
+
 }
 
-.middle-menu-header {
-    text-align: center;
-    margin-top: 23px;
+
+.topnav,
+ #menu-checkbox {
+    display: none;
+    z-index: 1; 
+
 }
 
-.middle-menu-header a {
 
-    margin: 0 10px;
+.topnav a {
+
+    display: block;
     color: black;
     text-decoration: none;
-    font-weight: 100;
-    font-size: 18px;
-    padding: 18px;
+    padding: 10px 40px;
+    font-size: 20px;
+    
 }
 
-.middle-menu-header a:hover {
+
+.topnav {
+
+    position: absolute;
+    left: 65%;
+    top: 70px;
+    padding: 0 20px;
+    background-color:rgb(228, 228, 213);
+
+    
+}
+
+.topnav a:hover {
 
     text-decoration: underline;
 }
 
-.middle-menu-header a:active {
+.hamburger-icon {
 
-    color: #333;
+    position: relative;
+    left: 80%;
+    top: 38px;
+    font-size: 25px;
+    
 }
 
-.frontpage-coverpicture {
+
+#menu-checkbox:checked ~ .topnav {
+    
+    display: block; 
+}
+
+.visit-coverpicture {
     position: relative; 
     left: 50%;
     top: 380px;
@@ -63,83 +98,153 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.mammoth-text-container {
+.admission-text-container {
 
     
     max-width: 800px; 
     margin: 30px auto 0;
     padding: 0 20px; 
+    position: relative;
+    top: 10px;
 
     
 }
 
-.mammoth-text {
+.admission-text {
+    
     font-size: 18px;
     font-weight: 100;
 }
 
-.mammoth-text a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
 
-.kidandboard-picture {
+.cafeteria-picture {
 
     position: relative; 
     left: 50%;
-    top: 270px;
+    top: 240px;
     width: 800px;
     transform: translate(-50%, -50%);
+    
 
 }
 
-.kidandboard-text-container {
+.cafeteria-header {
 
     max-width: 800px; 
     margin: 100px auto 0;
-    padding: 0 20px; 
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
 }
 
-.kidandboard-text {
+.cafeteria-text-container {
+
+    max-width: 800px; 
+    margin: 10px auto 0;
+    padding: 0 20px; 
+    position: relative;
+    top: 10px;
+}
+
+.cafeteria-text {
     font-size: 18px;
     font-weight: 100;
 }
 
-.kidandboard-text a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+
+
+.accessibility-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 300px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    
+
 }
 
-.nightdude-picture {
+
+.accessibility-header {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+    bottom: 10px;
+
+}
+
+
+.accessibility-text-container {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 10px auto 0;
+    padding: 0 20px; 
+
+}
+
+.accessibility-text {
+
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+
+.map-header {
+
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.map-picture {
     
     position: relative;
     width: 400px;
     margin: 0 auto;
     display: block;
-    top: 100px;
+    top: 115px;
     right: 195px;
 
 }
 
-.nightdude-text-container {
+.map-text-container {
     
     position: relative;
     left: 430px;
-    bottom: 290px;
+    bottom: 265px;
     max-width: 800px; 
     margin: 100px auto 0;
     
 }
 
-.nightdude-text {
+.map-text-container-2 {
+
+    max-width: 450px; 
+    margin: 30px auto 0;
+    padding: 0 20px; 
+    display: none;
+}
+
+.map-header2 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+
+.map-text {
 
     font-size: 18px;
     font-weight: 100;
 }
 
-.nightdude-text a {
+.map-text a {
 
     font-weight:bold;
     text-decoration: none;
@@ -147,14 +252,15 @@ header {
     
 }
 
-.footer-line {
+ .footer-line {
+    
     background-color: black;
     height: 1.5px;
     width: 100%;
 }
 
-
 .footer {
+
     background-color: rgb(228, 228, 213);
     color: black;
     position: fixed;
@@ -172,20 +278,35 @@ header {
 
 .footer-text-left {
 position: relative;
-left: 20%;
+left: 200px;
 
 }
 
 .footer-text-middle {
-    position: relative;
-    right: 60px;
+
+    text-align: center;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
 
 } 
 
 .footer-text-right {
     position: relative;
-    right: 20%;
+    right: 200px;
     
+}
+
+.footer-text-right a {
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+.footer-text-right a:hover {
+
+    text-decoration: underline;
 }
 
 .footer-text-left,
@@ -193,24 +314,246 @@ left: 20%;
 .footer-text-right {
 
     font-size: 18px;
+    margin-bottom: 50px;
 
 }
 
 
-h1 {
-    
-    
+.footer-text-middle-mobile a {
+
+    text-decoration: none;
+    color: black;
 
 }
 
-h2 {
 
+@media (max-width: 1297px) {
+
+    .footer-line {
     
+        height: 1px;
+    }
+
+    .footer-text-left,
+    .footer-text-middle,
+    .footer-text-right {
     
+        font-size: 12px;
+        margin-bottom: 30px;
+    
+    }
+
+    .footer-text-left {
+        position: relative;
+        left: 30px;
+    }
+
+    .footer-text-right {
+        position: relative;
+        right: 30px;
+    }
+
 }
 
-h3 {
+
+
+@media (max-width: 900px) {
+
+    .topnav a {
+
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 18px;
+        
+    }
+
+    .visit-coverpicture {
+
+        width: 450px;
+        top: 225px;
+
+    }
+    
 
     
+    .cafeteria-text-container,
+    .map-text-container-2,
+    .cafeteria-header,
+    .accessibility-text-container,
+    .admission-text-container {
+
+        max-width: 450px; 
+        margin: 30px auto 0;
+
+    }
+    
+
+    .map-text-container{
+
+        display: none;
+    }
+
+
+    .map-text-container-2 {
+
+        display: block;
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    .map-header2 {
+    
+        display: block;
+        max-width: 450px; 
+        margin: 30px auto 0;
+        font-size: 22px;
+        position: relative;
+       
+    }
+
+
+    .map-text-2 a {
+
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        
+
+
+    }
+
+    .map-text-2 {
+
+        font-weight: 100;
+        font-size: 18px;
+    }
+
+    .map-picture {
+        
+        display: none;
+
+    }
+
+    .cafeteria-header {
+
+        font-size: 22px;
+        margin-top: 50px;
+        margin-bottom: -40px;
+        
+   
+       }
+   
+    .cafeteria-picture {
+   
+           width: 450px;
+           top: 180px;
+       }
+
+    .cafeteria-text-container {
+      
+        margin-top: 58px;
+
+    }
+
+    .accessibility-header {
+
+        font-size: 22px;
+   
+       }
+
+    .accessibility-picture {
+
+        width: 450px;
+        top: 200px;
+    }
+
+    .accessibility-header {
+
+        max-width: 450px; 
+        margin: 30px auto 0;
+        top: 20px;
+        
+    }
+
+    .accessibility-text-container {
+
+        top: 20px;
+   
+    }
+  
+
+}
+
+@media (min-width: 625px) {
+
+    .logo-small {
+
+    display: none;
+      
+    }
+
+    .footer-text-middle-mobile {
+
+    display: none;
+
+    }
+
+    .topnav {
+        
+        position: static;
+        display: block;
+        text-align: center;
+        
+    }
+
+    .topnav a {
+
+        display: inline-block
+    
+    }
+
+    .hamburger-icon {
+
+        display: none;
+    }
+
+}
+
+@media (max-width: 625px) {
+
+    .admission-text-container,
+    .cafeteria-text-container,
+    .accessibility-text-container {
+
+        text-align: center;
+
+    }
+    
+    .cafeteria-header,
+    .accessibility-header {
+
+        text-align: center;
+
+    }
+
+    .logo-big {
+
+        display: none;
+        
+    }
+
+    .headerline {
+        display: none;
+    }
+
+    .footer-text-left,
+    .footer-text-middle,
+    .footer-text-right {
+    
+        display: none;
+        
+    }
 
 }
