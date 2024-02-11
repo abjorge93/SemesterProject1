@@ -247,88 +247,7 @@ body {
 
 
 
-
-.cosmo-header {
-
-    position: relative;
-    max-width: 800px; 
-    margin: 100px auto 0;
-    padding: 0 20px;
-    font-size: 25px;
-    font-weight: 400;
-    bottom: 10px;
-
-}
-
-.cosmo-picture {
-
-    position: relative; 
-    left: 50%;
-    top: 270px;
-    width: 800px;
-    transform: translate(-50%, -50%);
-
-}
-
-
-
-.cosmo-text-container {
-
-    position: relative;
-    max-width: 800px; 
-    margin: 10px auto 0;
-    padding: 0 20px; 
-
-}
-
-.cosmo-text {
-
-    font-size: 18px;
-    font-weight: 100;
-
-}
-
-.ai-header {
-
-    position: relative;
-    max-width: 800px; 
-    margin: 100px auto 0;
-    padding: 0 20px;
-    font-size: 25px;
-    font-weight: 400;
-    bottom: 10px;
-
-}
-
-.ai-picture {
-
-    position: relative; 
-    left: 50%;
-    top: 270px;
-    width: 800px;
-    transform: translate(-50%, -50%);
-
-}
-
-
-
-.ai-text-container {
-
-    position: relative;
-    max-width: 800px; 
-    margin: 10px auto 0;
-    padding: 0 20px; 
-
-}
-
-.ai-text {
-
-    font-size: 18px;
-    font-weight: 100;
-
-}
-
- .footer-line {
+.footer-line {
     
     background-color: black;
     height: 1.5px;
@@ -446,11 +365,9 @@ left: 200px;
     }
 
     
-    .butterly-text-container,
-    .windmills-text-container,
-    .baby-text-container,
-    .cosmo-text-container,
-    .ai-text-container {
+    .work-text-container,
+    .donations-text-container,
+    .volunteer-text-container {
 
         max-width: 450px; 
         margin: 30px auto 0;
@@ -459,11 +376,9 @@ left: 200px;
     
 
 
-    .butterly-picture,
-    .windmills-picture,
-    .baby-picture,
-    .cosmo-picture,
-    .ai-picture {
+    .work-picture,
+    .donations-picture,
+    .volunteer-picture {
    
            width: 450px;
            top: 100px;
@@ -476,9 +391,9 @@ left: 200px;
 
 
 
-    .butterly-header,
-    .windmills-header,
-    .baby-header {
+    .work-header,
+    .donations-header,
+    .volunteer-header {
         
         max-width: 450px;
         font-size: 22px;
