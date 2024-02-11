@@ -1,0 +1,581 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+
+    background-color: rgb(228, 228, 213);
+    font-family: 'Roboto', Verdana, Sans-Serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 350vh;
+    overflow-x: hidden;
+}
+
+.logo-big {
+
+    width: 300px;
+    position: relative;
+    left: 150px;
+    bottom: 70px;
+    
+}
+
+.logo-small {
+    position: relative;
+    width: 32px;
+    left: 40px;
+    bottom: 28px;
+}
+
+.headerline {
+
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    
+
+}
+
+
+.topnav,
+ #menu-checkbox {
+    display: none;
+    z-index: 1; 
+
+}
+
+
+.topnav a {
+
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 20px;
+    
+}
+
+
+.topnav {
+
+    position: absolute;
+    left: 65%;
+    top: 70px;
+    padding: 0 20px;
+    background-color:rgb(228, 228, 213);
+
+    
+}
+
+.topnav a:hover {
+
+    text-decoration: underline;
+}
+
+.hamburger-icon {
+
+    position: relative;
+    left: 80%;
+    top: 38px;
+    font-size: 25px;
+    
+}
+
+
+#menu-checkbox:checked ~ .topnav {
+    
+    display: block; 
+}
+
+.butterly-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 280px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.butterly-header {
+
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+
+
+}
+
+.butterly-text-container {
+
+    max-width: 800px; 
+    margin: 10px auto 0;
+    padding: 0 20px; 
+    position: relative;
+    top: 10px;
+}
+
+.butterly-text {
+    
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.windmills-header {
+
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    
+
+}
+
+.windmills-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 290px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.windmills-text-container {
+
+    
+    max-width: 800px; 
+    margin: 30px auto 0;
+    padding: 0 20px; 
+    position: relative;
+    top: 10px;
+
+    
+}
+
+.windmills-text {
+    
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+
+
+.baby-header {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+    bottom: 10px;
+
+}
+
+.baby-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 270px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.baby-text-container {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 10px auto 0;
+    padding: 0 20px; 
+
+}
+
+.baby-text {
+
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.windmills-header {
+
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+    
+
+}
+
+.windmills-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 290px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.windmills-text-container {
+
+    
+    max-width: 800px; 
+    margin: 30px auto 0;
+    padding: 0 20px; 
+    position: relative;
+    top: 10px;
+
+    
+}
+
+.windmills-text {
+    
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+
+
+.cosmo-header {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+    bottom: 10px;
+
+}
+
+.cosmo-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 270px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.cosmo-text-container {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 10px auto 0;
+    padding: 0 20px; 
+
+}
+
+.cosmo-text {
+
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.ai-header {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 100px auto 0;
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+    bottom: 10px;
+
+}
+
+.ai-picture {
+
+    position: relative; 
+    left: 50%;
+    top: 270px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.ai-text-container {
+
+    position: relative;
+    max-width: 800px; 
+    margin: 10px auto 0;
+    padding: 0 20px; 
+
+}
+
+.ai-text {
+
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+ .footer-line {
+    
+    background-color: black;
+    height: 1.5px;
+    width: 100%;
+}
+
+.footer {
+
+    background-color: rgb(228, 228, 213);
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-text-container {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text-left {
+position: relative;
+left: 200px;
+
+}
+
+.footer-text-middle {
+
+    text-align: center;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+
+} 
+
+.footer-text-right {
+    position: relative;
+    right: 200px;
+    
+}
+
+.footer-text-right a {
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+.footer-text-right a:hover {
+
+    text-decoration: underline;
+}
+
+.footer-text-left,
+.footer-text-middle,
+.footer-text-right {
+
+    font-size: 18px;
+    margin-bottom: 50px;
+
+}
+
+
+.footer-text-middle-mobile a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+
+@media (max-width: 1297px) {
+
+    .footer-line {
+    
+        height: 1px;
+    }
+
+    .footer-text-left,
+    .footer-text-middle,
+    .footer-text-right {
+    
+        font-size: 12px;
+        margin-bottom: 30px;
+    
+    }
+
+    .footer-text-left {
+        position: relative;
+        left: 30px;
+    }
+
+    .footer-text-right {
+        position: relative;
+        right: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+
+    .topnav a {
+
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 18px;
+        
+    }
+
+    
+    .butterly-text-container,
+    .windmills-text-container,
+    .baby-text-container,
+    .cosmo-text-container,
+    .ai-text-container {
+
+        max-width: 450px; 
+        margin: 30px auto 0;
+
+    }
+    
+
+
+    .butterly-picture,
+    .windmills-picture,
+    .baby-picture,
+    .cosmo-picture,
+    .ai-picture {
+   
+           width: 450px;
+           top: 150px;
+       }
+
+    
+
+    .kids-header {
+
+        top: 5px;
+    }
+
+
+    .butterly-header,
+    .windmills-header,
+    .baby-header,
+    .cosmo-header,
+    .ai-header {
+        
+        max-width: 450px;
+        font-size: 22px;
+        position: relative;
+        bottom: 35px;
+    }
+
+    .accessibility-text-container {
+
+        top: 20px;
+   
+    }
+  
+
+}
+
+@media (min-width: 625px) {
+
+    .logo-small {
+
+    display: none;
+      
+    }
+
+    .footer-text-middle-mobile {
+
+    display: none;
+
+    }
+
+    .topnav {
+        
+        position: static;
+        display: block;
+        text-align: center;
+        
+    }
+
+    .topnav a {
+
+        display: inline-block
+    
+    }
+
+    .hamburger-icon {
+
+        display: none;
+    }
+
+}
+
+@media (max-width: 625px) {
+
+    .butterly-header,
+    .windmills-header,
+    .baby-header,
+    .cosmo-header,
+    .ai-header {
+
+     text-align: center;
+
+    }
+    
+    
+    .cafeteria-header,
+    .accessibility-header {
+
+        text-align: center;
+
+    }
+
+    .logo-big {
+
+        display: none;
+        
+    }
+
+    .headerline {
+        display: none;
+    }
+
+    .footer-text-left,
+    .footer-text-middle,
+    .footer-text-right {
+    
+        display: none;
+        
+    }
+
+}
