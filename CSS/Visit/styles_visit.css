@@ -523,14 +523,6 @@ left: 200px;
 
 @media (max-width: 625px) {
 
-    .admission-text-container,
-    .cafeteria-text-container,
-    .accessibility-text-container {
-
-        text-align: center;
-
-    }
-    
     .cafeteria-header,
     .accessibility-header {
 

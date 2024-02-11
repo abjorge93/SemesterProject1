@@ -633,19 +633,7 @@ left: 200px;
 @media (max-width: 625px) {
 
 
-    .mammoth-text-container,
-    .kidandboard-text-container
-    .kidandboard-text,
-    .nightdude-text-container,
-    .nightdude-text-container-2,
-    .fancymachine-text-container,
-    .fancymachine-text,
-    .volunteer-fp-text-container,
-    .volunteer-fp-text-container-1 {
 
-        text-align: center;
-
-    }
     
     .kidandboard-header,
     .nightdude-header,
@@ -656,15 +644,6 @@ left: 200px;
 
     }
 
-    .nightdude-header {
-
-        text-align: center;
-    }
-
-    .fancymachine-header {
-
-        text-align: center;
-    }
     
     .volunteer-fp-header {
 
